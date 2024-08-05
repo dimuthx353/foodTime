@@ -1,0 +1,54 @@
+.logo{
+    height:60%;
+    width:45px;
+    display:flex;
+    
+}
+
+.a{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'open Sans',sans-serif;
+}
+
+.sidebar{
+    height:97%;
+    width:200px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position:fixed;
+    top:0;
+    left:0;
+    padding:2%;
+    background-color: var(--prmaryColor);
+    color: var(--whiteColor);
+
+}
+
+.sidebar-menus{
+    display:flex;
+    flex-direction: column;
+}
+
+.sidebar-menus a,.sidebar-logout a {
+    padding:5% 8%;
+    margin:0.5rem 0;
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:1rem;
+    text-decoration: none;
+    color: var(--whiteColor);
+}
+
+.sidebar-menus a ion-icon , .sidebar-logout a ion-ico {
+    font-size: 20px;
+}
+
+.sidebar-menus a:hover,.sidebar-logout a:hover{
+    background-color: var( --secondaryColor);
+    border-radius: 50px;
+}
